@@ -1,0 +1,132 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: #FFF;
+	text-decoration: none;
+}
+body{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background-color:#2F2E2E;
+}
+.main{
+	display: flex;
+	justify-content: space-between;
+
+}
+#home{
+	height: 100vh;
+	width: 100%;
+}
+.logo{
+	/* width: 411px;  */
+	/* height: 149px;  */
+	left: 83px;
+	top: 34px;
+	position: absolute; 
+	color: white;
+	font-size: 66px; 
+	font-family: Inter; 
+	font-weight: 700; 
+	word-wrap: break-word
+}
+.nav{
+	width: 07px; 
+	height: 31px; 
+	left: 508px; 
+	top: 93px; 
+	position: absolute;
+	justify-content: flex-start; 
+	align-items: flex-start; 
+	gap: 36px; 
+	display: inline-flex
+}
+.nav a{
+	margin-top: -22px;
+	width: 131px; 
+	height: 31px; 
+	color: white; 
+	font-size: 18px; 
+	font-family: 'Inter'; 
+	font-weight: 700;
+	/* word-wrap: break-word; */
+	text-transform: uppercase;
+}
+.content {
+	margin-top:-45px ;
+	width: 514px; 
+	height: 126px; 
+	left: 83px; 
+	top: 243px; 
+	position: absolute;
+}
+.content>h1{
+	color: white; 
+	font-size: 80px; 
+	font-family: Inter; 
+	font-weight: 700;
+	word-wrap: break-word; 
+}
+.content>h1>span{
+	color: #EFE0BF;
+}
+.content>h2{
+	width: 640px; 
+	height: 75px; 
+	position: relative; 
+	color: #9E8B7D;
+	font-size: 64px; 
+	font-family: Inter; 
+	font-weight: 700; 
+	word-wrap: break-word
+}
+.content2{
+	
+	width: 620px; 
+	height: 302px; 
+	left: 83px; 
+	top: 400px; 
+	position: absolute;
+	color: white; 
+	font-size: 24px; 
+	font-family: Inter; 
+	font-weight: 500; 
+	word-wrap: break-word
+}
+.btn {
+	display: flex;
+}
+.btn button{
+	width: 214px; 
+	height: 69px; 
+	position: absolute; 
+	background: #9E8B7D; 
+	border-radius: 5px;
+	border: 1px solid #9E8B7D;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-family: inter;
+	transition: all ease 0.5s;
+}
+#btn1{
+	left: 126px; 
+	top: 555px; 
+}
+#btn2{
+	left: 432px; 
+	top: 555px;
+}
+.btn>button:hover{
+	background-color: transparent;
+}
+
+
+
+
+#about{
+	height: 100vh;
+	width: 100%;
+	background-color: #EFE0BF;
+}
